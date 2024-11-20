@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -145,7 +148,10 @@ include('config.php');
 
 <body>
 <div class="container">
-    <h1 class="head">Abelov International Ltd <br> <span>Customers Database</span> </h1>
+  <h1 class="head">Abelov International Ltd <br> <span>Customers Database</span> </h1>
+  <?php 
+include("search.php");
+?>
   <table>
     <tr>
       <th class="id">ID</th>
