@@ -187,6 +187,7 @@ label {
 
       <label for="ram">Ram</label>
       <select name="ram_type">
+        <option value="none"></option>
         <option value="pc2">PC2</option>
         <option value="pc3">PC3</option>
         <option value="pc4">PC4</option>
