@@ -107,8 +107,8 @@ label {
   font-size: 15px;
   /* margin-top: 5px; */
   position: absolute;
-  right: 60%;
-  top: 174%;
+  right: 67%;
+  top: 194%;
 }
 
 #success{
@@ -206,7 +206,7 @@ label {
       <p  id="success"></p>
 
       <button type="submit" class="btn">Submit</button>
-      <input type="submit" class="btn" value="Print" onclick="print()">
+      <!-- <input type="submit" class="btn" value="Print" onclick="print()"> -->
       
     </form>
   </div>

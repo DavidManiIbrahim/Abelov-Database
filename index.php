@@ -90,6 +90,8 @@
   .ellipse{
       position: relative;
     z-index: -10;
+    left: 0;
+    width: 30%;
   }
 
   .image-container {
@@ -111,27 +113,27 @@
 
 
 
-
    </style>
  
 </head>
 <body>
+    
     <img src="./src/assets/Ellipse 1.png" class="ellipse" alt="Ellipse image">
   <div class="container">
     <div class="content">
-      <h1>Abelov Repair<span>Registration Form</span></h1>
+      <h1>Abelov Device <br> <span>Registration Form</span></h1>
       <p>
-        Welcome to Abelov Database! We believe great ideas come from everyone.
-        This is your chance to share your thoughts, ideas, or feedback with us to help
-        make Abelov international ltd even better.
+      Welcome to Abelov International Ltd, we value your trust and strive to provide
+       top-notch repair services. Please use this form to register your device for repair by sharing the
+        details below. Be sure to include a clear description of the problem and any specifications of your
+         device to ensure our team can assist you efficiently. Thank you for choosing us—we’re here to help!
       </p>
-      <a href="data.php" class="btn">Submit a Suggestion</a>
-      <p class="note">
-        All suggestions are anonymous, and we value every piece of feedback. <br> Let’s create a better experience together.
-      </p>
+      <a href="data.php" class="btn">Register Device</a>
+     
     </div>
       <div class="image-container">
-          <img src="./src/assets/amico.png" class="admin" alt="Illustration">
+          <!-- <img src="./src/assets/amico.png" class="admin" alt="Illustration"> -->
+          <img src="./src/assets/engine.png" class="admin" alt="Illustration">
         </div>
   </div>
 </body>
