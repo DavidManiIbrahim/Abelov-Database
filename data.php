@@ -146,9 +146,9 @@ label {
         <!-- <option></option> -->
         <option value="laptop">Laptop</option>
         <option value="desktop">Desktop</option>
-        <option value="ps2">Ps2</optionv>
-        <option value="ps3">Ps3</option>
-        <option value="ps4">Ps4</option>
+        <option value="playstation">Play Station</optionv>
+        <!-- <option value="ps3">Ps3</option> -->
+        <!-- <option value="ps4">Ps4</option> -->
         <option value="xbox">Xbox</option>
         <option value="others">Others</option>
       </select>
@@ -187,7 +187,7 @@ label {
 
       <label for="ram">Ram</label>
       <select name="ram_type">
-        <option value="none"></option>
+        <option value="none">None</option>
         <option value="pc2">PC2</option>
         <option value="pc3">PC3</option>
         <option value="pc4">PC4</option>

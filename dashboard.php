@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin Dashboard</title>
   <link rel="stylesheet" href="./dashboard.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Add jQuery -->
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> Add jQuery -->
   <style>
   * {
     box-sizing: border-box;
