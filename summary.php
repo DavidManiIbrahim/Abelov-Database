@@ -20,11 +20,12 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
         echo "<button class='print-btn' onclick='window.print();'>Print Receipt</button>";
 
         // Title of the receipt
-        echo "<h3>Customer Receipt</h3>";
-        echo "<h4><strong>Abelov International ltd</strong></h3>";
-        echo "<h4><strong>Account Name: FCMB</strong></h3>";
+        // echo "<h3>Customer Receipt</h3>";
+        echo "<h2><strong>Abelov International ltd</strong></h3>";
         echo "<h4><strong>Phone Number: 08101726816</strong></h3>";
+        echo "<h4><strong> FCMB</strong></h3>";
         echo "<h4><strong>Account No: 2768912013</strong></h3>";
+        echo "<h4><strong>Abel Victor Osinachi</strong></h3>";
 
 
         echo"<br>";
@@ -72,7 +73,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
         position: relative;
     }
 
-    h3 {
+    h3,h2 {
         text-align: center;
         color: #333;
         font-size: 28px;
@@ -156,7 +157,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
     @media (max-width: 768px) {
         .receipt-card {
             padding: 20px;
-            height: 30%;
+            height: 50%;
         }
 
         h2 {

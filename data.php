@@ -107,15 +107,17 @@ label {
   font-size: 15px;
   /* margin-top: 5px; */
   position: absolute;
-  right: 67%;
-  top: 194%;
+  right: 45%;
+  font-size: 20px;
+  top: 0%;
 }
 
 #success{
+  font-size: 20px;
   color: #12be6e;
   position: absolute;
-  right: 61%;
-  top: 194%;
+  right: 40%;
+  top: 0;
 }
 
 @media screen and (orientation:portrait) {
@@ -134,15 +136,15 @@ label {
     <form action="data.php" method="post">
 
       <label for="customer name">Customer Name</label>
-      <input type="text" name="customer_name" id="title" class="input-box" placeholder="Enter your Name">
+      <input type="text" name="customer_name" id="title" class="input-box" placeholder="Enter your Name" required>
       <div id="titleError" class="error"></div>
       
       <label for="phone number">Phone Number</label>
-      <input type="text" name="phone_number" id="title" class="input-box" placeholder="Enter your phone number">
+      <input type="number" name="phone_number" id="title" class="input-box" placeholder="Enter your phone number" required>
       <div id="titleError" class="error"></div>
       
       <label for="device type">Device Type</label> <br>
-      <select name="device_type">
+      <select name="device_type" required>
         <!-- <option></option> -->
         <option value="laptop">Laptop</option>
         <option value="desktop">Desktop</option>
@@ -155,19 +157,19 @@ label {
       <div id="titleError" class="error"></div>
 
       <label for="registration date">Date of Registration</label>
-      <input type="datetime-local" name="registration_date" id="title" class="input-box" placeholder="Enter Date of Registration Here">
+      <input type="datetime-local" name="registration_date" id="title" class="input-box" placeholder="Enter Date of Registration Here" required>
       <div id="titleError" class="error"></div>
 
       <label for="device name">Name of Device</label>
-      <input type="text" name="device_name" id="title" class="input-box" placeholder="Enter Device Name">
+      <input type="text" name="device_name" id="title" class="input-box" placeholder="Enter Device Name" required>
       <div id="titleError" class="error"></div>
 
       <label for="problem">Problem</label>
-      <input type="text" name="problem" id="title" class="input-box" placeholder="Enter Laptop problem">
+      <input type="text" name="problem" id="title" class="input-box" placeholder="Enter Laptop problem" required>
       <div id="titleError" class="error"></div>
 
       <label for="charger">Charger</label>
-      <select name="charger">
+      <select name="charger" required>
         <option value="yes">Yes</optionb>
         <option value="no">No</option>
       </select>
@@ -175,18 +177,18 @@ label {
       <div id="titleError" class="error"></div>
 
       <label for="storage type">Storage</label>
-      <select name="storage_type">
+      <select name="storage_type" required>
         <option value="ssd">SSD</option>
         <option value="hdd">HDD</option>
       </select>
       <div id="titleError" class="error"></div>
 
       <label for="storage size">Storage Size</label>
-      <input type="text" name="storage_size" id="title" class="input-box" placeholder="Whats Your Storage Size">
+      <input type="text" name="storage_size" id="title" class="input-box" placeholder="Whats Your Storage Size" required>
       <div id="titleError" class="error"></div>
 
       <label for="ram">Ram</label>
-      <select name="ram_type">
+      <select name="ram_type" required>
         <option value="none">None</option>
         <option value="pc2">PC2</option>
         <option value="pc3">PC3</option>
@@ -196,11 +198,11 @@ label {
       <div id="titleError" class="error"></div>
 
       <label for="ram size">Ram Size</label>
-      <input type="text" name="ram_size" id="title" class="input-box" placeholder="Whats Your Ram Size">
+      <input type="text" name="ram_size" id="title" class="input-box" placeholder="Whats Your Ram Size" required>
       <div id="titleError" class="error"></div>
 
       <label for="amount">Amount</label>
-      <input type="tel" name="amount" id="title" class="input-box" placeholder="Amount paid">
+      <input type="number" name="amount" id="title" class="input-box" placeholder="Amount paid" required>
       <div id="titleError" class="error"></div>
 
       <div id="descriptionError" class="error"></div>
