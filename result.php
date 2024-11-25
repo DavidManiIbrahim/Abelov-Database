@@ -24,7 +24,7 @@ if (isset($_POST['search']) && !empty($_POST['search'])) {
     $searchTerm = mysqli_real_escape_string($conn, $_POST['search']);  // Prevent SQL injection
 
     // Query to search for the customer name
-    $query = "SELECT * FROM users WHERE customer_name LIKE '%$searchTerm%'";
+    $query = "SELECT * FROM users WHERE customer_name LIKE '%$searchTerm%' OR phone_number LIKE '%$searchTerm%'";
     $result = mysqli_query($conn, $query);
 
     if (mysqli_num_rows($result) > 0) {
@@ -58,7 +58,7 @@ if (isset($_POST['search']) && !empty($_POST['search'])) {
         
         echo "</table>";
     } else {
-        echo "<p>No customers found matching that name.</p>";
+        echo "<p>No customers found matching that name or phone number.</p>";
     }
 }
 ?>

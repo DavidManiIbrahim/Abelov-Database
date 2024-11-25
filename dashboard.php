@@ -21,14 +21,16 @@
     display: flex;
     height: 100vh;
     /* overflow-y: auto; */
-    background-color: #f0f0f5;
+  background-color: #e3c6f6;
     /* width: 100vw; */
   }
 
   /* Sidebar */
   .sidebar {
+    position: fixed;
+    height: 100vh;
     /* border: 1px solid red; */
-    max-width: 500px;
+    max-width: 600px;
     background-color: #d8b4f1;
     padding: 20px;
     display: flex;
@@ -55,34 +57,40 @@
 
 .container{
   /* border: 1px solid; */
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   width: 100%;
+  /* float: right; */
 }
 
 table {
-  /* overflow-y: scroll; */
-  /* border: 1px solid green; */
+  display: table;
+  position: relative;
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 90%;
+  left: 113px;
+  /* border: 1px solid red; */
+  /* float: right; */
+  /* overflow: auto; */
 }
 
 td, th {
-  border: 1px solid #dddddd;
   text-align: left;
-  width: 4%;
+  padding: 5px;
   height: 5vh;
+  /* border: 1px solid #dddddd; */
+  /* width: 2%; */
   /* padding: 10px; */
 }
 
-.id{
-  width: 10px;
-}
+/* .id{ */
+  /* width: 10px; */
+/* } */
 
-tr{
+/* tr{ */
   /* border: 1px solid; */
-  height: 5vh;
-}
+  /* height: 5vh; */
+/* } */
 
 tr:nth-child(even) {
   background-color: #e3c6f6;

@@ -21,7 +21,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
 
         // Title of the receipt
         // echo "<h3>Customer Receipt</h3>";
-        echo "<h2><strong>Abelov International ltd</strong></h3>";
+        echo "<h3><strong>Abelov International ltd</strong></h3>";
         echo "<h4><strong>Phone Number: 08101726816</strong></h3>";
         echo "<h4><strong> FCMB</strong></h3>";
         echo "<h4><strong>Account No: 2768912013</strong></h3>";
@@ -65,26 +65,34 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
     .receipt-card {
         background-color: white;
         border-radius: 12px;
-        padding: 30px;
-        height:80vh;
+        padding: 20px;
+        height: 80vh;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         max-width: 600px;
         margin: auto;
         position: relative;
     }
 
-    h3,h2 {
+
+
+    h3 {
         text-align: center;
         color: #333;
-        font-size: 28px;
-        margin-bottom: 20px;
+        font-size: 25px;
+        position: inherit;
+        top: 0;
+        margin-top: 5px;
         text-transform: uppercase;
     }
 
     h4{
+        /* border: 1px solid; */
         text-align: center;
         color: #333;
-        margin: 10px;
+        padding: 0;
+        margin: 5;
+        display: block;
+        /* margin-top: 0; */
     }
 
     .customer-details p {
