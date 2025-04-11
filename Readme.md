@@ -1,74 +1,26 @@
+# ⚙️ Abelov CRMS v1
 
+**Abelov CRMS** is a simple and efficient Customer Relationship Management System built specifically for hardware maintenance companies. It is designed to streamline customer data, manage service records, and track maintenance histories effectively.
 
-⚙️ Abelov CRMS v1
+## ✨ Features
 
-Abelov CRMS is a simple and efficient Customer Relationship Management System built for hardware maintenance companies. It helps streamline customer data, manage service records, and track maintenance tasks with ease.
+- **Customer Data Management**: Store and manage detailed customer information.
+- **Service Request Tracking**: Keep a record of service requests efficiently.
+- **Maintenance History**: View and organize past maintenance activities.
+- **Admin Dashboard**: Centralized control for managing the system.
+- **Responsive User Interface**: Works seamlessly across all devices.
+- **Secure Login System**: Ensures data safety with a protected authentication system.
 
-✨ Features
+## 🛠 Tech Stack
 
-Customer data management
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: PHP
+- **Database**: MySQL
 
-Service request tracking
+## 🚀 Getting Started
 
-Maintenance history
+Follow these steps to set up and run the project locally:
 
-Admin dashboard
-
-Responsive user interface
-
-Secure login system
-
-
-🛠 Tech Stack
-
-Frontend: HTML, CSS, JavaScript
-
-Backend: PHP
-
-Database: MySQL
-
-
-🚀 Getting Started
-
-1. Clone the repository
-
-git clone https://github.com/yourusername/abelov-crms-v1.git
-
-
-2. Set up the database
-
-Create a database called abelov_crms
-
-Import the SQL file (abelov_crms.sql) via phpMyAdmin
-
-
-
-3. Configure database settings in config.php
-
-$host = "localhost";
-$user = "your_db_user";
-$pass = "your_db_password";
-$db   = "abelov_crms";
-
-
-4. Run the app on your local server (XAMPP/WAMP) or upload to a live server.
-
-
-
-📦 Deployment
-
-Compatible with shared hosting or any PHP-supporting environment.
-
-Just upload the files and set the DB connection — and you're good to go!
-
-
-✍️ Author
-
-David Mani Ibrahim
-Built with purpose for hardware maintenance workflow improvements.
-
-📄 License
-
-This project is licensed under the MIT License.
-
-
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/abelov-crms-v1.git
