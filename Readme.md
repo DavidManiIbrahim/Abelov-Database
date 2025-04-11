@@ -1,18 +1,22 @@
 
 
-📬 Online Suggestion Box
+⚙️ Abelov CRMS v1
 
-A lightweight web app that allows users to submit anonymous suggestions or feedback — built with PHP and MySQL for simplicity and speed!
+Abelov CRMS is a simple and efficient Customer Relationship Management System built for hardware maintenance companies. It helps streamline customer data, manage service records, and track maintenance tasks with ease.
 
 ✨ Features
 
-Anonymous suggestion submissions
+Customer data management
 
-Clean and responsive UI
+Service request tracking
 
-Admin panel to view suggestions (optional)
+Maintenance history
 
-Easy to set up and deploy on any PHP server
+Admin dashboard
+
+Responsive user interface
+
+Secure login system
 
 
 🛠 Tech Stack
@@ -28,42 +32,43 @@ Database: MySQL
 
 1. Clone the repository
 
-git clone https://github.com/yourusername/online-suggestion-box.git
+git clone https://github.com/yourusername/abelov-crms-v1.git
 
 
-2. Import the SQL file into your database
+2. Set up the database
 
-Open phpMyAdmin
+Create a database called abelov_crms
 
-Create a database (e.g., suggestion_box)
-
-Import suggestion_box.sql from the project folder
+Import the SQL file (abelov_crms.sql) via phpMyAdmin
 
 
 
-3. Configure the database connection in config.php
+3. Configure database settings in config.php
 
 $host = "localhost";
-$user = "your_username";
-$pass = "your_password";
-$db   = "suggestion_box";
+$user = "your_db_user";
+$pass = "your_db_password";
+$db   = "abelov_crms";
 
 
-4. Run the app on localhost or upload to your hosting server.
+4. Run the app on your local server (XAMPP/WAMP) or upload to a live server.
 
 
 
 📦 Deployment
 
-Upload the files to your PHP-enabled hosting platform (e.g., cPanel, XAMPP, 000webhost)
+Compatible with shared hosting or any PHP-supporting environment.
 
-🤝 Contributing
+Just upload the files and set the DB connection — and you're good to go!
 
-Feel free to fork this repo, suggest features, or submit pull requests!
+
+✍️ Author
+
+David Mani Ibrahim
+Built with purpose for hardware maintenance workflow improvements.
 
 📄 License
 
-MIT License
-
+This project is licensed under the MIT License.
 
 
